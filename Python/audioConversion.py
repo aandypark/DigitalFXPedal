@@ -1,7 +1,7 @@
 import numpy as np
 from scipy.io import wavfile
 
-sample_rate, audio = wavfile.read("../audio/guitarSample.wav")
+sample_rate, audio = wavfile.read("../Audio/guitarSample.wav")
 
 if len(audio.shape) > 1:
     audio = audio[:, 0]
